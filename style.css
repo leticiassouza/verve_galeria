@@ -5,3 +5,9 @@ html, body {
 canvas {
   display: block;
 }
+
+@media only screen 
+  and (min-device-width: 700px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}

@@ -47,11 +47,11 @@ push();
   rectMode(CENTER);
   fill(paleta[randCol]);
   noStroke();
-  if (windowWidth > 400) {
+  if (windowWidth >= 400) {
      rect(windowWidth/2, windowHeight/2, 450, 630);
   } 
   else { 
-  rect(windowWidth/2, windowHeight/2, 280, 430);
+  rect(windowWidth/2, windowHeight/2, 240, 390);
   }
 pop();
   
@@ -70,7 +70,7 @@ pop();
   
   textFont(rectText);
   
-   if (windowWidth > 400) {
+   if (windowWidth >= 400) {
      textSize(60);
     textLeading(55);
     text('Site em Construção', myValueX + 40, myValueY + 10, 300, 150);
@@ -82,7 +82,7 @@ pop();
   } 
   
   
-  if (windowWidth > 400) {
+  if (windowWidth >= 400) {
    
     image(logo, windowWidth/2 -30, myValueY + 595, 90, 14);
   }
@@ -107,8 +107,8 @@ function texttt(x,y){
 
 function textttMobile(x,y){
   textFont(adress);
-  textSize(64);
-  textLeading(64);
+  textSize(50);
+  textLeading(50);
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3 - 150, 400, 400);
   image(logo, x + 22, windowHeight/3 - 190, 90, 14);
     textSize(16)

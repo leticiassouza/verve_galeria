@@ -76,9 +76,9 @@ pop();
     text('Site em Construção', myValueX + 40, myValueY + 10, 300, 150);
   } 
   else { 
-    textSize(35);
-  textLeading(30);
-        text('Site em Construção', myValueXmobile + 30, myValueYmobile + 20, 150, 150);
+    textSize(30);
+  textLeading(25);
+        text('Site em Construção', myValueXmobile + 35, myValueYmobile + 20, 150, 150);
   } 
   
   

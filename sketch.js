@@ -78,7 +78,7 @@ pop();
   else { 
     textSize(35);
   textLeading(30);
-        text('Site em Construção', myValueXmobile + 20, myValueYmobile +10, 150, 150);
+        text('Site em Construção', myValueXmobile + 30, myValueYmobile + 20, 150, 150);
   } 
   
   

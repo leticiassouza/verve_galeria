@@ -84,7 +84,7 @@ pop();
   
   if (windowWidth >= 400) {
    
-    image(logo, windowWidth/2 -30, myValueY + 595, 90, 14);
+    image(logo, windowWidth/2 - 40, myValueY + 595, 90, 14);
   }
   else {
     imageMode(CENTER);

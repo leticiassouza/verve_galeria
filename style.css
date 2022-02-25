@@ -10,9 +10,11 @@ canvas {
 
 @font-face {
     font-family: 'panamaregular';
-    src: url('https://github.com/leticiassouza/verve_galeria/blob/main/panama-webfont.woff') format('woff'),
+    src: url('../fonts/panama-webfont.woff2') format('woff2'),
+         url('../fonts/panama-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 .text-IG {

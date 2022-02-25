@@ -48,7 +48,7 @@ push();
   fill(paleta[randCol]);
   noStroke();
   if (windowWidth >= 400) {
-     rect(windowWidth/2, windowHeight/2, 450, 630);
+     rect(windowWidth/2, windowHeight/2, 450, 590);
   } 
   else { 
   rect(windowWidth/2, windowHeight/2, 240, 390);
@@ -59,7 +59,7 @@ pop();
   let myValueX = windowWidth/2 - 450/2;
   // print(myValueX);
   
-   let myValueY = windowHeight/2 - 630/2;
+   let myValueY = windowHeight/2 - 590/2;
   // print(myValueY);
   
   let myValueXmobile = windowWidth/2 - 280/2;

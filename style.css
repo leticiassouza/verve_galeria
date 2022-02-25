@@ -16,11 +16,10 @@ canvas {
 }
 
 .text-IG {
-font-family: 'CustomFont', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
+font-family: 'panamaregular';
 color: #00000;
-position: 85vh; 
+position: absolute;
+bottom: 10px;
 }
 
 @media only screen 

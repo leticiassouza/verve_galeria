@@ -73,12 +73,12 @@ pop();
    if (windowWidth >= 400) {
      textSize(60);
     textLeading(55);
-    text('Site em Construção', myValueX + 40, myValueY + 10, 300, 150);
+    text('Site em construção', myValueX + 40, myValueY + 10, 300, 150);
   } 
   else { 
     textSize(30);
   textLeading(25);
-        text('Site em Construção', myValueXmobile + 35, myValueYmobile + 20, 150, 150);
+        text('Site em construção', myValueXmobile + 35, myValueYmobile + 20, 150, 150);
   } 
   
   
@@ -88,7 +88,7 @@ pop();
   }
   else {
     imageMode(CENTER);
-    image(logo, windowWidth/2, myValueYmobile + 395, 90, 14);
+    image(logo, windowWidth/2, myValueYmobile + 390, 90, 14);
   }
   
   

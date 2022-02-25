@@ -8,6 +8,21 @@ canvas {
   height: 100vh;
 }
 
+@font-face {
+    font-family: 'panamaregular';
+    src: url('https://leticiassouza.github.io/verve_galeria/css/fonts/panama-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-IG {
+font-family: 'CustomFont', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+color: #00000;
+position: 85vh; 
+}
+
 @media only screen 
   and (min-device-width: 600px) 
   and (-webkit-min-device-pixel-ratio: 3) { 

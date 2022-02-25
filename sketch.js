@@ -101,8 +101,8 @@ function texttt(x,y){
   textLeading(64);
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3, 581, 235);
   image(logo, x + 22, windowHeight/3 - 40, 90, 14);
-  textSize(23)
-  text(IGlink, x + 175  , windowHeight - 20)
+//   textSize(23)
+//   text(IGlink, x + 175  , windowHeight - 20)
 }
 
 function textttMobile(x,y){
@@ -111,8 +111,8 @@ function textttMobile(x,y){
   textLeading(50);
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3 - 150, 400, 400);
   image(logo, x + 22, windowHeight/3 - 190, 90, 14);
-    textSize(16)
-    text(IGlink, windowWidth/2 -70, windowHeight - 55)
+//     textSize(16)
+//     text(IGlink, windowWidth/2 -70, windowHeight - 55)
 }
 
 

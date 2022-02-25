@@ -20,7 +20,7 @@ font-family: 'panamaregular';
 color: #00000;
 position: absolute;
 bottom: 10px;
-left: 50px;
+margin-left: 80px;
 }
 
 @media only screen 

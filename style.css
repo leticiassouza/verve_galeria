@@ -8,6 +8,29 @@ canvas {
   height: 100vh;
 }
 
+a:link {
+  text-decoration: none;
+  font-family: 'panamaregular';
+  font-weight: normal;
+  font-style: normal;
+  color: #00000;
+  
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
 @font-face {
     font-family: 'panamaregular';
     src: url('../fonts/panama-webfont.woff2') format('woff2'),

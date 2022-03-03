@@ -104,7 +104,7 @@ function texttt(x,y){
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3, 581, 235);
   image(logo, x + 22, windowHeight/3 - 40, 90, 14);
   textSize(23)
-  text(textTel, x + 195  , windowHeight - 95)
+  text(txtTel, x + 195  , windowHeight - 95)
 }
 
 function textttLeft(x,y){

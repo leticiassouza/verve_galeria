@@ -1,8 +1,8 @@
 let adress;
 let rectText;
 let logo;
-let IGlink = 'IG @vervegaleria'
-let txtTel = '+55 11 3237 3247'
+let IGlink = 'IG @vervegaleria';
+let txtTel = '+55 11 3237 3247';
 
 let paleta = ["#ff7900", "#fec1e9", "#b4b4b4", "#d6ab29", "#7296f7" ];
 
@@ -114,7 +114,7 @@ function textttLeft(x,y){
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3, 581, 235);
   image(logo, x + 22, windowHeight/3 - 40, 90, 14);
   textSize(23)
-  text(IGlink, x + 195  , windowHeight - 95)
+  text(IGlink, x + 195  , windowHeight - 95);
 }
 
 function textttMobile(x,y){
@@ -123,8 +123,8 @@ function textttMobile(x,y){
   textLeading(50);
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3 - 150, 350, 400);
   image(logo, x + 22, windowHeight/3 - 190, 90, 14);
-    textSize(16)
-    text(IGlink, windowWidth/2 - 70, windowHeight - 75)
+    textSize(16);
+    text(IGlink, windowWidth/2 - 70, windowHeight - 75);
 }
 
 

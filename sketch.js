@@ -125,8 +125,6 @@ function textttMobile(x,y){
   image(logo, x + 22, windowHeight/3 - 190, 90, 14);
     textSize(16)
     text(IGlink, windowWidth/2 - 70, windowHeight - 75)
-     text(IGlink, windowWidth/2 - 70, windowHeight - 60)
-
 }
 
 

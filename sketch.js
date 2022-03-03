@@ -80,7 +80,7 @@ pop();
   else { 
     textSize(30);
   textLeading(25);
-        text('Site em construção', myValueXmobile + 35, myValueYmobile + 20, 150, 150);
+        text('Site em construção', myValueXmobile + 25, myValueYmobile + 20, 150, 150);
   } 
   
   
@@ -104,7 +104,7 @@ function texttt(x,y){
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3, 581, 235);
   image(logo, x + 22, windowHeight/3 - 40, 90, 14);
   textSize(23)
-  text(IGlink, x + 195  , windowHeight - 95)
+  text(textTel, x + 195  , windowHeight - 95)
 }
 
 function textttLeft(x,y){
@@ -114,7 +114,7 @@ function textttLeft(x,y){
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3, 581, 235);
   image(logo, x + 22, windowHeight/3 - 40, 90, 14);
   textSize(23)
-  text(txtTel, x + 195  , windowHeight - 95)
+  text(IGlink, x + 195  , windowHeight - 95)
 }
 
 function textttMobile(x,y){
@@ -124,7 +124,9 @@ function textttMobile(x,y){
   text('Avenida São Luis 192 Ed Louvre SL06 (SP, BR)', x + 20, windowHeight/3 - 150, 350, 400);
   image(logo, x + 22, windowHeight/3 - 190, 90, 14);
     textSize(16)
-    text(IGlink, windowWidth/2 - 70, windowHeight - 115)
+    text(IGlink, windowWidth/2 - 70, windowHeight - 75)
+     text(IGlink, windowWidth/2 - 70, windowHeight - 60)
+
 }
 
 
